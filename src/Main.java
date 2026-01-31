@@ -1,11 +1,10 @@
 public class Main {
 
-    public static void main(String[] args) {
-       Rectangle r = new Rectangle(10,20);
+    public static void main(String[] args) throws InterruptedException {
 
-       Square s = new Square(10,20);
+        DbConnection dbConnection = DbConnection.getInstance();
 
-        System.out.println(r.getArea());
-        System.out.println(s.getArea());
+
     }
+
 }
