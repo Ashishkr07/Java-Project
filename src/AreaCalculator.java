@@ -2,6 +2,13 @@ class Rectangle {
     private int height;
     private int width;
 
+    public Rectangle(int height, int width) {
+        this.height = height;
+        this.width = width;
+    }
+
+
+
     public int getHeight() {
         return height;
     }
@@ -28,9 +35,7 @@ class Rectangle {
 class Square extends Rectangle {
 
 
-    @Override
-    public void setHeight(int height){
-         setHeight(getWidth());
+    public Square(int height,int width) {
+        super(height, height);
     }
-
 }

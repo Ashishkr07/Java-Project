@@ -1,9 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-       User user = new User();
-       System.out.println(user.id);
-        System.out.println(user.name);
-    }
+       Rectangle r = new Rectangle(10,20);
 
+       Square s = new Square(10,20);
+
+        System.out.println(r.getArea());
+        System.out.println(s.getArea());
+    }
 }
